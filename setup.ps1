@@ -7,6 +7,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 
 ### Browser
 choco install googlechrome -fy
+choco install opera -fy
 
 ### Text Editors / IDE
 choco install notepadplusplus.install -fy
@@ -16,11 +17,14 @@ choco install vscode -fy
 choco install git.install -fy
 choco install nodejs.install -fy
 choco install jre8 -fy
-choco install dart-sdk
+choco install dart-sdk -fy
+choco install python3 -fy
+choco install virtualbox -fy
 
 ### Server Management
 choco install putty.install -fy
 choco install filezilla -fy
+choco install teamviewer
 
 #### Media
 choco install vlc -fy

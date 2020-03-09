@@ -19,12 +19,15 @@ choco install vlc -fy
 choco install cdburnerxp -fy
 choco install audacity -fy
 
+### Office
+choco install office365proplus -fy
+choco install quicktime -fy
+
 ### Utilities
 choco install 7zip.install -fy
 choco install sysinternals -fy
 choco install ccleaner -fy
 choco install keepass.install -fy
-choco install office365proplus -fy
 
 ### Disable Cortana
 New-Item -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\' -Name 'Windows Search' | Out-Null

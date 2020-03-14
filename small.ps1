@@ -11,16 +11,12 @@ choco install googlechrome -fy
 ### Text Editors / IDE
 choco install notepadplusplus.install -fy
 
-### Version Control
-choco install git -fy
-
 #### Media
 choco install vlc -fy
 choco install cdburnerxp -fy
 choco install audacity -fy
 
 ### Office
-choco install office365proplus -fy
 choco install quicktime -fy
 
 ### Utilities
